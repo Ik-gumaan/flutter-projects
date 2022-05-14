@@ -1,0 +1,23 @@
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-storage.js"></script>
+
+
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyBgYVDV0hpBLLJ5ywBhkpE2iFk2eUDY_h4",
+    authDomain: "news-app-mini-hackathon.firebaseapp.com",
+    projectId: "news-app-mini-hackathon",
+    storageBucket: "news-app-mini-hackathon.appspot.com",
+    messagingSenderId: "619454818892",
+    appId: "1:619454818892:web:f12eb630ed1a9c7aac22e9",
+    measurementId: "G-MEZ9BHNK6P"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
